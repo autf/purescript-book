@@ -1,0 +1,6 @@
+tasks:
+  - name: Install Tools
+    init: |
+      npm i -g purescript
+      npm i -g spago
+    command: date
